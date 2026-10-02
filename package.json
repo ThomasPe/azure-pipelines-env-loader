@@ -7,7 +7,9 @@
   "exports": {
     ".": "./index.js"
   },
-  "bin": "azure-pipelines-env-loader",
+  "bin": {
+    "azure-pipelines-env-loader": "azure-pipelines-env-loader"
+  },
   "files": [
     "index.js",
     "azure-pipelines-env-loader",
