@@ -37,7 +37,7 @@ The CLI escapes Azure Pipelines logging-command characters before publishing val
 
 ```sh
 npm test
-node bin/load-pipeline-env path/to/.env
+node azure-pipelines-env-loader path/to/.env
 ```
 
 The parser and escaping helpers are exported from the package entry point for reuse:
