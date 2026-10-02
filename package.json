@@ -7,9 +7,7 @@
   "exports": {
     ".": "./index.js"
   },
-  "bin": {
-    "load-pipeline-env": "./bin/load-pipeline-env"
-  },
+  "bin": "./bin/load-pipeline-env",
   "files": [
     "index.js",
     "bin/load-pipeline-env",
