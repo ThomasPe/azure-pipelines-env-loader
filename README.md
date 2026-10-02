@@ -14,7 +14,7 @@ A dependency-free Node.js CLI that reads a committed `.env` file and publishes i
   inputs:
     version: '22.x'
 
-- bash: npx --yes @thomaspe/azure-pipelines-env-loader@latest apps/main/env/.env.prod
+- bash: npx --yes @thomaspe/azure-pipelines-env-loader@1.0.0 apps/main/env/.env.prod
   displayName: Load pipeline variables
 ```
 
