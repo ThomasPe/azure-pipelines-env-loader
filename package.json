@@ -1,0 +1,27 @@
+{
+  "name": "@thomaspe/azure-pipelines-env-loader",
+  "version": "1.0.0",
+  "description": "Load committed dotenv files into Azure Pipelines job variables.",
+  "license": "MIT",
+  "main": "./loadEnvFile.js",
+  "exports": {
+    ".": "./loadEnvFile.js"
+  },
+  "bin": {
+    "load-pipeline-env": "./loadEnvFile.js"
+  },
+  "files": [
+    "loadEnvFile.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
