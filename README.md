@@ -14,7 +14,7 @@ A dependency-free Node.js CLI that reads a committed `.env` file and publishes i
   inputs:
     version: '22.x'
 
-- bash: npx --yes @thomaspe/azure-pipelines-env-loader@1.0.0 apps/main/env/.env.prod
+- bash: npx --yes @thomaspe/azure-pipelines-env-loader@1.0.1 apps/main/env/.env.prod
   displayName: Load pipeline variables
 ```
 
@@ -37,7 +37,7 @@ The CLI escapes Azure Pipelines logging-command characters before publishing val
 
 ```sh
 npm test
-node loadEnvFile.js path/to/.env
+node load-pipeline-env.js path/to/.env
 ```
 
 The parser and escaping helpers are exported from the package entry point for reuse:
