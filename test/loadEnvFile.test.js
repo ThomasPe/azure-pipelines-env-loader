@@ -6,7 +6,7 @@ const { spawnSync } = require('node:child_process');
 const test = require('node:test');
 
 const { escapeLoggingValue, parse } = require('../index');
-const scriptPath = path.join(__dirname, '..', 'bin', 'load-pipeline-env');
+const scriptPath = path.join(__dirname, '..', 'azure-pipelines-env-loader');
 
 function runLoader(content) {
   const directory = fs.mkdtempSync(path.join(os.tmpdir(), 'load-env-file-'));

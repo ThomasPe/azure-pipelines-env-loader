@@ -7,10 +7,10 @@
   "exports": {
     ".": "./index.js"
   },
-  "bin": "./bin/load-pipeline-env",
+  "bin": "azure-pipelines-env-loader",
   "files": [
     "index.js",
-    "bin/load-pipeline-env",
+    "azure-pipelines-env-loader",
     "README.md",
     "LICENSE"
   ],
